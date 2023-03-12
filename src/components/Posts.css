@@ -1,0 +1,56 @@
+div {
+  box-sizing: border-box;
+}
+
+.posts {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.post {
+  margin: 0 auto;
+  width: 600px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  border: 2px solid #f1f1f1;
+  border-radius: 10px;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 20px;
+  display: flex;
+}
+
+input {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 20px;
+  display: flex;
+}
+
+.post__actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
